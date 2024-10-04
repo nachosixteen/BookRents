@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtBookId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Libro" />
+
+    <EditText
+        android:id="@+id/edtBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Libro" />
+
+    <EditText
+        android:id="@+id/edtCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Costo" />
+
+    <Spinner
+        android:id="@+id/spinnerAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCreateBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Libro" />
+
+    <Button
+        android:id="@+id/btnUpdateBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Libro"
+        android:enabled="false" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerBooks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

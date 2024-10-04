@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <Button
+        android:id="@+id/btnRentBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rentar Libro"
+        android:textColor="@color/textColorPrimary"
+        android:backgroundTint="@color/buttonColor"
+        android:layout_marginBottom="16dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_medium"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btnCreateBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestionar Libros"
+        android:textColor="@color/textColorPrimary"
+        android:backgroundTint="@color/buttonColor"
+        android:layout_marginBottom="16dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_medium"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/btnManageUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestionar Usuarios"
+        android:textColor="@color/textColorPrimary"
+        android:backgroundTint="@color/buttonColor"
+        android:textAllCaps="false"
+        android:fontFamily="@font/roboto_medium"
+        android:elevation="4dp"/>
+
+</LinearLayout>

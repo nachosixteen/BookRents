@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Librería</string>
+    <string-array name="status_array">
+        <item>No Sancionado</item>
+        <item>Sancionado</item>
+    </string-array>
+
+    <string-array name="availability_array">
+        <item>Disponible</item> <!-- Disponible -->
+        <item>No disponible</item> <!-- No Disponible -->
+    </string-array>
+
+</resources>
+
+
